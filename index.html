@@ -109,7 +109,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Client Launch Game - Provider Integration</h1>
+        <h1>ShankomeeClient Launch Game - Provider Integration</h1>
         <p>This demo shows how client sites can call the provider launch game API.</p>
         
         <div class="tabs">
@@ -119,7 +119,7 @@
         </div>
         
         <div id="demo" class="tab-content active">
-            <h2>Test Provider Launch Game API</h2>
+            <h2>Shan Test Provider Launch Game API</h2>
             <form id="launchForm">
                 <div class="form-group">
                     <label for="agent_code">Agent Code:</label>
@@ -130,6 +130,7 @@
                     <label for="product_code">Product Code:</label>
                     <select id="product_code" name="product_code" required>
                         <option value="">Select Product Code</option>
+                        <option value="100200">100200 (Shankomee)</option>
                         <option value="1007">1007 (PG Soft)</option>
                         <option value="1221">1221</option>
                         <option value="1040">1040</option>
@@ -313,7 +314,10 @@ This document explains how to use the provider launch game API to integrate game
 
 ## Overview
 
-The provider launch game API allows external client sites to launch games without requiring authentication. This is a provider site endpoint that receives requests and responds with launch game URLs. This is useful for integrating game functionality into partner sites or white-label solutions.
+The provider launch game API allows external client sites to launch games
+ without requiring authentication. This is a provider site endpoint that receives requests and 
+ responds with launch game URLs. This is useful for integrating game functionality into 
+ partner sites or white-label solutions.
 
 ## API Endpoint
 
